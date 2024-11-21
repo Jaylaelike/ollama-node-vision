@@ -1,0 +1,31 @@
+{
+  "name": "ollama-vision-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon dist/index.js",
+    "dev": "pnpm run build && pnpm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/image-to-base64": "^2.1.2",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/multer": "^1.4.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "image-to-base64": "^2.2.0",
+    "multer": "1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "ollama": "^0.5.9",
+    "together-ai": "^0.9.0"
+  },
+  "type": "module"
+}
